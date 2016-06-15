@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <a href="wechat://anihfsd">127634734673</a>
+    <script>
+        setTimeout(()=>{
+            let $script = document.createElement('script');
+            $script.src = './modernizr.js';
+            document.getElementsByTagName('head')[0].appendChild($script);
+        }, 1000);
+        setTimeout(()=>{
+            let classList = document.getElementsByTagName('html')[0].classList;
+            alert(JSON.stringify(classList));
+        }, 2000);
+    </script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
